@@ -9,3 +9,8 @@ This is a personal startpage that is used as a replacement for the Home and New 
 - Quick links to most visited websites
 - Local weather that uses the OpenWeather API
 - Optional searchbox located above the quick links
+
+**Dependencies:**
+
+- JQuery
+- An Open Weather Map API key that you can access for free from Openweathermap.org
