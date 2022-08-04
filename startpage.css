@@ -1,9 +1,9 @@
         :root {
 
-            --color0: #3B3F45;
-            --color1: rgb(1, 176, 189);
-            --color2: #78929b;
-            --color3: #dadfee;
+            --color0: #3B4252;
+            --color1: #5E81AC;
+            --color2: #81A1C1;
+            --color3: #ECEFF4;
         }
 
         #bg {
@@ -43,10 +43,10 @@
             text-align: center;
             top: 0.5em;
             left: 0.5em;
-            color: white;
+            color: var(--color3);
         }
         .category {
-            color: white;
+            color: var(--color3);
             text-align: center;
             width: 6em;
         }
@@ -70,7 +70,7 @@
 
         a:hover {
             color: var(--color3);
-            font-size: 1.1em;
+            font-size: 1.05em;
         }
 
         .entry il:nth-last-child(n+2)::after{
